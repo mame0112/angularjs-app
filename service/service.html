@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../angular.min.js"></script>
+<script src="script.js"></script>
+	<title>Angular js sample</title>
+</head>
+<body ng-app="App">
+<div ng-controller="Controller">
+  <strong>First name:</strong> {{personManagerInstance.getPersonFirstName()}}<br />
+    <strong>Last name:</strong> {{personManagerInstance.getPersonLastName()}}<br />
+    <strong>Full name:</strong> {{personManagerInstance.getPersonFullName("*")}}<br />
+</div>
+
+</body>
+</html>
