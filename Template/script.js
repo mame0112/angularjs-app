@@ -11,9 +11,9 @@ angular.module('mainModule', [])
 	};
 })
 
-.directive("nghTemplateOriginal", function()
+.directive("nghTemplateUrlDir", function()
 {
 	return {
-		template: '{{myScopeVar}}'
+		templateUrl: 'nghTemplateUrlDirBody.html'
 	};
 });
